@@ -1,0 +1,112 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo span {
+    color: #E67E22;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+nav a:hover, nav a.active {
+    color: #E67E22;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #E67E22, #D35400);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+.formulaire, .infos {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+.formulaire h2, .infos h2 {
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+form textarea {
+    height: 120px;
+    resize: none;
+}
+form button {
+    background: #E67E22;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+form button:hover {
+    background: #D35400;
+}
+.infos p {
+    margin: 10px 0;
+    color: #555;
+}
+.infos img {
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
